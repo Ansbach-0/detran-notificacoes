@@ -537,7 +537,7 @@ const t = document.getElementById('toast');
 t.textContent = msg; t.style.display = 'block';
 setTimeout(() => t.style.display = 'none', 2000);
 }
-try { init(); } catch(e) { document.getElementById("templateList").innerHTML = "<p style="color:red;padding:20px">Error: " + e.message + "</p>"; console.error(e); }
+try { init(); } catch(e) { document.getElementById('templateList').innerHTML = '<p style="color:red;padding:20px">Error: ' + e.message + '</p>'; console.error(e); }
 
 
 </script>
